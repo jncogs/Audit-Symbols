@@ -92,6 +92,7 @@ The categories for this plug-in are as follows:
 | :---: | :---: | :--- |
 | 07/19/2025 | 1.0.0 | Initial release |
 | 07/20/2025 | 1.0.1 | Fixed bug with NURBS surfaces used in Object History causing a crash <br><br> Added Progress Bar for Symbol Analysis with cancel option |
+| 07/20/2025 | 1.0.2 | Added Cancel button to Analyzing Modeling History progress bar |
 
 
 ## Known Bugs
