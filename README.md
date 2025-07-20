@@ -4,7 +4,7 @@ Menu Command
 
 ## Version
 
-1.0.0 - 7/19/2025
+1.0.1 - 7/20/2025
 
 This plug-in is written in Vectorscript (Pascal) and can be used in any version of [Vectorworks](https://www.vectorworks.net) 2019 or newer.
 
@@ -27,7 +27,7 @@ Used for finding "heavy" Symbol Definitions within a Vectorworks drawing. Opens 
 1. Column listing number of objects in Symbol Definition's 3D component.
 1. Column listing number of objects in Symbol Definition with Modeling History.
 1. Column listing number of Symbols within the active drawing.
-1. If the selected Symbol Definition contains objects with Modeling History, a tree diagram of the Modeling History will appear here. Press the **Expand All** button to expand all tree items or **Collapse All** to collapse all tree items.
+1. If the selected Symbol Definition contains objects with Modeling History, a tree diagram of the Modeling History will appear here. Press the **Expand All** button to expand all tree items or **Collapse All** to collapse all tree items. Please note that the tree has a hard limit of 300 "children" objects for any given object, including the Symbol itself.
 1. The currently selected Symbol Definition will be highlighted in the List Browser. Only one Symbol Definition may be selected at a time.
 1. Press the **Edit 2D Component** button to jump into the 2D Component Edit for the selected Symbol Definition. This will close the dialog box.
 1. Press the **Edit 3D Component** button to jump into the 3D Component Edit for the selected Symbol Definition. This will close the dialog box.
@@ -91,6 +91,8 @@ The categories for this plug-in are as follows:
 | Date | Version | Note |
 | :---: | :---: | :--- |
 | 07/19/2025 | 1.0.0 | Initial release |
+| 07/20/2025 | 1.0.1 | Fixed bug with NURBS surfaces used in Object History causing a crash <br><br> Added Progress Bar for Symbol Analysis with cancel option |
+
 
 ## Known Bugs
 
