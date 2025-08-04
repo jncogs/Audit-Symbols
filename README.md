@@ -101,7 +101,9 @@ No Known Bugs
 
 ## Feature Requests
 
-No current Feature Requests
+| Date Logged | Request |
+| :---: | :--- |
+| 08/04/2025 | Add ability to remove object history for selected Symbol |
 
 ## License
 
